@@ -104,30 +104,25 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Users (customers)</h3>
 <br />
 <p>
-  Admin Panel -> Users -> Add New.
+  Under Admin Panel > Go to "Users" -> Click "Add New"
+  Add two end users named Ken & Karen. End users or customers, can create and view support tickets, access a knowledge base, and track the status of their issues through the customer portal. 
 </p>
 <p>
   Ken User:
 </p>
   <img src="https://i.imgur.com/vbPd3uK.png" height="75%" width="100%" alt="user access"/>
 <p>
-  Repeat the same above for Karen User.
+  Do the same Step for Karen User.
 </p>
 <br />
 <br />
 <h3 align="center">Configure SLA</h3>
 <br />
 <p>
-  Admin Panel -> Manage -> SLA.
-</p>
-<p>
-  Sev-A (1 hour, 24/7).
-</p>
-<p>
-  Sev-B (4 hours, 24/7).
-</p>
-<p>
-  Sev-C (8 hours, business hours):
+  Under the Admin Panel > Go to "Manage" section > Click on "SLA"
+  1. Name: Sev-A           2. Sev-B          3. Sev-C
+  1. Grace Period: 1-hour  2. 4-hour         3. 8-hour
+  1. Schedule: 24/7        2. 24/7           3. M-F 8am-5pm + holidays
 </p>
 <p>
   <img src="https://i.imgur.com/6AAF3Ju.png" height="75%" width="100%" alt="sev one"/>
@@ -139,19 +134,12 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Help Topics</h3>
 <br />
 <p>
-  Admin Panel -> Manage -> Help Topics.
-</p>
-<p>
-  Business Critical Outage.
-</p>
-<p>
-  Personal Computer Issues.
-</p>
-<p>
-  Equipment Request.
-</p>
-<p>
-  Password Reset.
+  Under Admin Panel > Go to "Manage" > Click "Help Topics"
+  Business Critical Outage (parent: Report a Problem) 
+  Personal Computer Issues (parent: Report a Problem) 
+  Equipment Request (parent: General Inquiry) 
+  Password Reset (parent: Report a Problem) 
+  Other (parent: General Inquiry)
 </p>
 <p>
   <img src="https://i.imgur.com/Xdhp63v.png" height="75%" width="100%" alt="business critical outage"/>
@@ -162,8 +150,5 @@ This tutorial outlines the post-install configuration of the open-source help de
 <br />
 <br />
 <p>
-  This now fully configures our osTicket. I hope this guide was able to help clarify and assist you in setting up your osTicket. It is recommended to practice triaging and solving tickets.
-</p>
-<p>
-  This is a very important skill to have for any help desk specialist, as they are the first line of communication between a company and it's customers when it comes to handling issues regarding a product or service they provide.
+  This now fully configures our osTicket and for a real-world help desk environment. I hope this guide was able to help clarify and assist you in setting up your osTicket. I recommended to practice triaging and solving tickets.
 </p>
