@@ -35,7 +35,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Roles</h3>
 <br />
 <p>
-  Admin Panel -> Agents -> Roles.
+  After logging into osTicket with Admin credentials, Go to Admin Panel > Click "Agents" > Click "Roles"
+  Click "Add New Role" and name it Supreme Admin granting you it's full permissions.
 </p>
 <p>
   Supreme Admin:
@@ -52,7 +53,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Departments</h3>
 <br />
 <p>
-  Admin Panel -> Agents -> Departments.
+  Go back to Agents > Click "Departments" > click "Add New Department"
+  Name it "Sysadmin" and set its parent to Top-Level.
 </p>
 <p>
   System Administrators:
@@ -66,10 +68,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Teams</h3>
 <br />
 <p>
-  Admin Panel -> Agents -> Teams.
-</p>
-<p>
-  Level II Support:
+  Go back to "Agents" again > Click "Teams" > add a new team and name it whatever you want.
 </p>
 <p>
   <img src="https://i.imgur.com/BnPrcDH.png" height="75%" width="100%" alt="Level II Support"/>
@@ -79,7 +78,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Allow anyone to create ticket</h3>
 <br />
 <p>
-  Admin Panel -> Settings -> User Settings.
+  Under the Admin Panel > Click on "Settings" > Go to "User Settings" > Uncheck the "Registration Required" box.
+  Now unregistered users can create tickets, yhis helps in scenarios where quick ticket creation is vital.
 </p>
 <p>
   Make sure "Require registration and login to create tickets" is not selected:
@@ -92,15 +92,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Agents (workers)</h3>
 <br />
 <p>
-  Admin Panel -> Agents -> Add New.
-</p>
-<p>
-  Jane Doe:
+  Under Admin Panel > Go to Agents > Click "Add New" 
+  Here I created: Jane Doe – Department: Sysadmin, Role: Supreme Admin, Team: Online Banking. 
+  And : John – Department: Support, Role: View Only.
 </p>
   <img src="https://i.imgur.com/ujpOdKM.png" height="75%" width="100%" alt="agent one access"/>
-<p>
-  John Doe:
-</p>
 <p>
   <img src="https://i.imgur.com/NcCP0v9.png" height="75%" width="100%" alt="agent two"/>
   <img src="https://i.imgur.com/aKTJ01A.png" height="75%" width="100%" alt="agent two access"/>
